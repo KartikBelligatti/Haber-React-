@@ -1,0 +1,44 @@
+h4{
+    color:white;
+    background-color: black;
+}
+.caption{
+    background-color: orangered;
+  }
+
+  .img{
+    margin-left: 100px;
+    border-radius: 50%;
+    background-color: rgb(50, 49, 50);
+    width: 80px;
+    height:80px;
+  } 
+  .img:hover{
+    background-color: orangered;
+  }
+  h1{
+    color: bisque;
+  }
+
+  .cardimg:hover {
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    transform: scale(0.9); 
+  }
+  .advice{
+    width: 1519.5px;
+    height: 800px;
+    margin-top: 400px;
+background-color: #e7eeee;
+  }
+
+  i:hover{
+    color: orangered;
+
+  }
+.formdiv{
+  background-image: url('https://wallpaperaccess.com/full/1802071.jpg');
+ 
+}
+
+
