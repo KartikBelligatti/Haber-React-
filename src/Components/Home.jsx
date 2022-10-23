@@ -4,6 +4,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
+import { MDBInput } from 'mdb-react-ui-kit';
+import Form from './form';
+
 
 
 
@@ -208,61 +211,109 @@ eiusmod tempor incididunt ut et dolore magna aliqua.
     </div>
  
   
-   
-    <section className="formdiv"  style={{height:400,backgroundColor:'black',marginTop:400}}>
-            <div class="container text-center cform">
-                <h2 class="text-primary">Quick Contact</h2>
+    <marquee style={{marginTop:50}}>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img19.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img20.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img21.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img22.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img23.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img19.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img20.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img21.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img22.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img23.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img19.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img20.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img21.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img22.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img23.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img19.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img20.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img21.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img22.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img23.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img19.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img20.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img21.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img22.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img23.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img19.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img20.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img21.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img22.jpg"></img>
+  <img style={{paddingLeft:50}} src="https://livedemo00.template-help.com/wt_55458/images/page-1_img23.jpg"></img>
 
-                <form class='mailform' method="post" action="bat/rd-mailform.php">
-                    <input type="hidden" name="form-type" value="contact"/>
-                    <fieldset class="row">
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <label data-add-placeholder="">
-                                <input type="text"
-                                       name="name"
-                                       placeholder="Name:"
-                                       data-constraints="@LettersOnly @NotEmpty"/>
-                            </label>
-
-                            <label data-add-placeholder="">
-                                <input type="text"
-                                       name="email"
-                                       placeholder="Email:"
-                                       data-constraints="@Email @NotEmpty"/>
-                            </label>
-
-                            <label data-add-placeholder="">
-                                <input type="text"
-                                       name="phone"
-                                       placeholder="Phone:"
-                                       data-constraints="@Phone"/>
-                            </label>
-                        </div>
-
-                        <div class="col-md-8 col-sm-6 col-xs-12">
-                            <label data-add-placeholder="" class="textarea">
-                                                          <textarea name="message" placeholder="Message"
-                                                                    data-constraints="@NotEmpty"></textarea>
-                            </label>
-                        </div>
-
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="mfControls">
-                                <button class="btn btn-primary btn-sm" type="submit">send</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
+</marquee>
+    <section  style={{height:400,backgroundColor:'black',marginTop:0}}>
+           <Form/>
+           <br></br><br></br><br></br>
         </section>
 
 
 
+<div>
+  
+</div>
+
+<br></br><br></br><br></br>
+
+<Card style={{ width: '18rem',float:'left',margin:30,marginLeft:100, border:'none' }}>
+        <div className="img">
+      <Card.Img style={{width:40,height:40,marginLeft:20,marginTop:22,}} variant="top" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-map-icon.png" />
+      </div>
+      <Card.Body style={{marginTop:-80, marginLeft:90, width:400}} >
+      <Card.Title style={{fontSize:15,marginLeft:90}}><b>NEW YORK 9870 ST VINCENT <br></br>
+      GLASGOW</b></Card.Title>      
+      </Card.Body>
+    </Card>
+  
+     
+
+<Card style={{ width: '18rem',float:'left',margin:30,marginLeft:110, border:'none' }}>
+        <div className="img">
+      <Card.Img style={{width:40,height:40,marginLeft:20,marginTop:20}} variant="top" src="https://www.freeiconspng.com/thumbs/telephone-icon/mobile-phone-icon-phone-telephone-icon-22.png" />
+      </div>
+      <Card.Body style={{marginTop:-80, marginLeft:90, width:400}} >
+      <Card.Title style={{fontSize:15,marginLeft:90}}><b>CALL US:<br></br>
++1 800 603 6035</b></Card.Title>      
+      </Card.Body>
+    </Card>
 
 
-    
+    <Card style={{ width: '18rem',float:'left',margin:30,marginLeft:110, border:'none' }}>
+        <div className="img">
+      <Card.Img style={{width:65,height:40,marginLeft:7,marginTop:20}} variant="top" src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" />
+      </div>
+      <Card.Body style={{marginTop:-70, marginLeft:90, width:400}} >
+      <Card.Title style={{fontSize:15,marginLeft:90}}><b>CONTACT@DEMOLINK.ORG<br></br>
+</b></Card.Title>      
+      </Card.Body>
+      
+    </Card>
+  
+<br></br><br></br><br></br>
 
-       
+<div style={{width:1518, height:500, backgroundColor:'grey', marginTop:100}}>
+  <br></br><br></br><br></br>
+<h5 ><b>HABER<span style={{}}> © 2022 Privacy policy</span></b></h5>
+
+  <ul style={{listStyle:'none',}}>
+  <li ><a style={{  marginTop:10,marginLeft:150,fontSize:40, color:'#fff', float:'left'}}  href="#" class="fa fa-twitter-square"   id="twit"></a></li>
+                <li><a style={{  marginTop:10,marginLeft:20,fontSize:40, color:'#fff', float:'left'}} href="#" class="fa fa-youtube"></a></li>
+                <li><a style={{  marginTop:10,marginLeft:20,fontSize:40,color:'#fff', float:'left'}} href="#" class="fa fa-rss"></a></li>
+                <li><a style={{  marginTop:10,marginLeft:20,fontSize:40,color:'#fff', float:'left'}} href="#" class="fa fa-facebook-square"></a></li>
+                <li><a style={{  marginTop:10,marginLeft:20,fontSize:40,color:'#fff', float:'left'}} href="#" class="fa fa-google-plus-square"></a></li>
+            
+  </ul>
+  <div className="google-map-code" style={{}}>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15282225.79979123!2d73.7250245393691!3d20.750301298393563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1587818542745!5m2!1sen!2sin" width="600" height="250" frameborder="0" style={{border:0, marginLeft:300, marginTop:-50}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+</div>
+
+
+
+
 </>
 
  )

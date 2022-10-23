@@ -41,4 +41,56 @@ background-color: #e7eeee;
  
 }
 
+form{
+ 
+  background-color: transparent;
 
+}
+
+input{
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.7;
+  margin-left: 250px;
+}
+
+textarea{
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.5;
+  width: 500px;
+  height: 145px;
+  margin-top: -127px;
+  margin-left: 400px;
+}
+
+
+.btn{
+
+  background-color:orangered;
+ 
+}
+button:hover{
+  background-color: transparent;
+  border: 1px solid black;
+ }
+.invalid-feedback{
+  margin-left: -270px;
+}
+ 
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+h5{
+  font-size: 35px;
+  color: white;
+  margin-left: 175px;
+}
+span{
+  font-size:15px;
+}

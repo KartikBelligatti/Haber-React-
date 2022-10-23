@@ -8,7 +8,7 @@ import logo from '../Assets/images/logo.png';
 //class -> className
 export default function NavBar() {
     return (
-        <nav className="navbar navbar-expand-sm  navbar-dark">
+        <nav className="navbar navbar-expand-sm  navbar-dark" >
             <ul className="navbar-nav">
                 <li className="nav-item" id="logo" >
                     {/* PROPERTY BINDING */}
@@ -18,10 +18,10 @@ export default function NavBar() {
                     <Link className="nav-link" to="home" style={{  marginTop:20, marginLeft:100, fontSize:14 }}><b>HOME</b></Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="classcom" style={{  marginTop:20,marginLeft:20, fontSize:14 }}><b>ABOUT</b></Link>
+                    <Link className="nav-link" to="axios" style={{  marginTop:20,marginLeft:20, fontSize:14 }}><b>AXIOS</b></Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="classcom" style={{  marginTop:20,marginLeft:20, fontSize:14 }}><b>SERVICES</b></Link>
+                    <Link className="nav-link" to="api" style={{  marginTop:20,marginLeft:20, fontSize:14 }}><b>API</b></Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="classcom" style={{  marginTop:20,marginLeft:20, fontSize:14 }}><b>PROJECTS</b></Link>
